@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h2,
+h3 {
+  color: #00a2cd;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #40c8d7;
+  text-align: center;
+  font-weight: bold;
+}
+
+.gambar-artikel {
+  width: 500px;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gambar-dokum {
+  width: 200px;
+}
+
+.gambar-produk {
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.logo-profil {
+  width: 100%;
+}
+
+main {
+  padding: 20px;
+}
+
+#profil {
+  background-color: #b2f7ff;
+  background-image: url(img/gambar5.png);
+}
+
+div.hidden {
+  border: 1px solid none;
+  width: 550px;
+  height: 350px;
+  overflow: hidden; /* Diganti dari 'visible' menjadi 'hidden' */
+  display: inline-block;
+}
+
+div.greb {
+  border: 1px solid none;
+  height: 110px;
+  width: 700px;
+  display: inline-block;
+  position: relative;
+  top: -430px;
+}
+
+.gambar-lat1 {
+  width: 300px;
+  border-radius: 100%;
+  display: inline-block;
+  position: relative;
+  top: -250px;
+}
+
+.card {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 21);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+aside {
+  flex-grow: 1;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 21);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: -18px;
+  height: 655px;
+  width: 20%;
+  text-align: center;
+  position: relative;
+  position: sticky;
+  top: 0;
+}
+
+.jumbotron {
+  font-size: 30px;
+  padding: 40px;
+  text-align: center;
+  background-image: url(img/lat1.jpg);
+  background-size: 20%;
+  color: rgb(84, 84, 101);
+}
+
+nav li {
+  display: inline;
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: #40c8d7;
+  padding: 5px;
+  position: relative;
+  position: sticky;
+  top: 0;
+}
+
+header {
+  display: inline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  display: flex;
+}
+
+#content {
+  flex-grow: 1;
+  width: 80%;
+}
+
+#produk {
+  background-image: url(img/lat2.jpg);
+}
+
+#pemesanan {
+  background-image: url(img/3.png);
+  width: 1117px;
+}
+
+aside header {
+  text-align: center;
+}
+
+aside table {
+  border-collapse: collapse;
+  margin-top: -20px;
+}
+
+aside table th,
+aside table td {
+  border: 1px solid black;
+  padding: 1px;
+}
+
+nav a :hover {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  main {
+    flex-wrap: wrap;
+  }
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
